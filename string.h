@@ -17,7 +17,6 @@
 class String : public Object {
 public:
     char* val; // owned
-    size_t size_;
 
     String(char* c) {
     }
