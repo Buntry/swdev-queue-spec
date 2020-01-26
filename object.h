@@ -18,7 +18,7 @@ public:
     virtual ~Object() {} //destructor
 
     // Calculates the hash of this object, based on the helper <hash_me_>
-    size_t hash() {
+    virtual size_t hash() {
     }
 
     // default equality calculation of an object, should be overrided
