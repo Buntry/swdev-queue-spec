@@ -1,9 +1,9 @@
 //lang::CwC
 
-#pragma once
 #include "object.h"
 #include "string.h"
 #include "queue.h"
+#include <stdio.h>
 
 
 void FAIL() { exit(1); }
