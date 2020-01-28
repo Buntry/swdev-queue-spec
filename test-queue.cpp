@@ -1,9 +1,9 @@
 //lang::CwC
 
 #pragma once
-#import "object.h"
-#import "string.h"
-#import "queue.h"
+#include "object.h"
+#include "string.h"
+#include "queue.h"
 
 
 void FAIL() { exit(1); }
@@ -19,7 +19,7 @@ void test_empty_queue() {
     t_true(q->len() == 0);
 
     delete q;
-    OK("test_empty_queue")
+    OK("test_empty_queue");
 }
 
 void test_basic_push_len() {
