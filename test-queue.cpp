@@ -1,9 +1,8 @@
 //lang::CwC
-
-#pragma once
 #import "object.h"
 #import "string.h"
 #import "queue.h"
+#include <stdio.h>
 
 
 void FAIL() { exit(1); }
